@@ -1,0 +1,78 @@
+.html-preview {
+  p {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
+  a {
+    color: -webkit-link;
+    text-decoration: underline;
+  }
+
+  ol {
+    display: flex;
+    flex-direction: column;
+    list-style-type: decimal;
+    margin-block-start: 0.7em;
+    margin-block-end: 0.7em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 25px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    margin-block-start: 0.7em;
+    margin-block-end: 0.7em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 25px;
+  }
+
+  ol,
+  ul,
+  dl {
+    padding: 0px 25px;
+  }
+  h1 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 1em;
+  }
+  h5 {
+    font-size: 0.8em;
+  }
+  h6 {
+    font-size: 0.7em;
+  }
+  .ql-font-serif {
+    font-family: serif;
+  }
+  .ql-font-monospace {
+    font-family: monospace;
+  }
+  .ql-align-center {
+    text-align: center;
+  }
+  .ql-align-right {
+    text-align: right;
+  }
+  .ql-align-justify {
+    text-align: justify;
+  }
+}

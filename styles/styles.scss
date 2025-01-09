@@ -1,0 +1,10 @@
+@charset 'utf-8';
+
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* purgecss end ignore */
+
+@import "./common/index";
+// @import "./utils/index";

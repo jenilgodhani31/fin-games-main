@@ -1,0 +1,275 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ededed;
+    --foreground: #171717;
+  }
+}
+
+*::-webkit-scrollbar {
+  width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ececf2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e3b69;
+}
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+
+::selection {
+  color: #fff;
+  background-color: #1e3b69;
+}
+
+body {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+
+  background-image: url(/gameImage/webBackground_6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: var(--theme-white);
+  color: var(--theme-white);
+}
+
+/* poppins-regular - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/assets/fonts/poppins-v20-latin-500.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("/assets/fonts/poppins-v20-latin-500.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/assets/fonts/poppins-v20-latin-500.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("/assets/fonts/poppins-v20-latin-500.woff")
+      format("woff"),
+    /* Modern Browsers */ url("/assets/fonts/poppins-v20-latin-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("/assets/fonts/poppins-regular-webfont.svg#Poppins") format("svg");
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/assets/fonts/poppins-v20-latin-600.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("/assets/fonts/poppins-v20-latin-600.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/assets/fonts/poppins-v20-latin-600.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("/assets/fonts/poppins-v20-latin-600.woff")
+      format("woff"),
+    /* Modern Browsers */ url("/assets/fonts/poppins-v20-latin-600.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("/assets/fonts/poppins-v20-latin-600.svg#Poppins") format("svg");
+  /* Legacy iOS */
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.nav {
+  font-weight: 600;
+}
+.ContactUsInput {
+  box-sizing: border-box;
+  border: 2px solid rgba(28, 28, 28, 1);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: rgba(71, 71, 71, 0.2);
+  background-position-x: 96%;
+  background-position-y: 15px;
+  background-repeat: no-repeat;
+  background-size: 15px;
+  padding: 12px 52px 12px 20px;
+  border-radius: 12px;
+  outline: none;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.ContactUsInput:hover {
+  border: 2px solid #474747;
+}
+
+.ContactUsInput:focus {
+  border: 2px solid var(--theme-color);
+}
+
+.cusBtn {
+  display: inline-block;
+  padding: 15px 25px;
+  background: linear-gradient(
+    90deg,
+    rgba(243, 67, 79, 1) 0%,
+    rgb(245, 45, 58) 100%
+  );
+  color: var(--theme-white);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+.cusBtn:hover {
+  background: linear-gradient(
+    90deg,
+    rgb(245, 45, 58) 0%,
+    rgba(243, 67, 79, 1) 100%
+  );
+}
+
+.gameArea {
+  overflow: hidden;
+  background-color: #f3434e35;
+  border: 2px dashed rgba(255, 255, 255, 0.1);
+}
+.PlayBtn {
+  z-index: 0;
+  /* display: none !important; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  background-color: rgb(184 93 245);
+  padding: 10px 50px;
+  font-size: 18px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.4);
+}
+
+.PlayBtn:hover {
+  background-color: rgb(245, 45, 58) !important;
+}
+
+@media only screen and (max-width: 425px) {
+  .PlayBtn {
+    padding: 10px 20px;
+    white-space: nowrap;
+  }
+}
+
+.MainHVR {
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  position: relative;
+  overflow: hidden;
+}
+
+.DataName {
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  position: absolute;
+  left: 50%;
+  bottom: -100%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  width: 90%;
+  text-align: center;
+  z-index: 2;
+}
+
+.databg {
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  position: absolute;
+  left: 50%;
+  bottom: -1px;
+  transform: translateX(-50%);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 40%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+  opacity: 0;
+}
+
+.HvrIMG {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.MainHVR:hover .DataName {
+  bottom: 8px;
+}
+
+.MainHVR:hover .databg {
+  opacity: 1;
+}
+
+.MainHVR:hover {
+  transform: scale(1.01869) translate(0px, -4px);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 10px 0px;
+  user-select: none;
+}
