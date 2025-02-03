@@ -1,3 +1,4 @@
+import Ads from "@/components/Ads";
 import Layout from "@/components/common/Layout";
 import React from "react";
 
@@ -6,6 +7,14 @@ function AboutUs() {
     <Layout>
      
       <div className=" pt-[50px] mx-[15px] ls:mx-[20px] sm:mx-[20px] md:mx-[32px] lg:mx-[50px]">
+      <div className="flex justify-center items-center w-full">
+          <div>
+          <Ads
+              data-ad-slot="2593442543"
+              data-ad-format="auto"
+              data-full-width-responsive="true" />
+          </div>
+        </div>
         <div className="pt-[48px]">
           <div className="text-white text-[36px] text bg-primary3 p-[10px] rounded-[10px] ">
             {"Free Online Games - Play Now On Fin Games"}

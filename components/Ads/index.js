@@ -11,13 +11,7 @@ const Ads = (props) => {
   }, []);
 
   // Determine the appropriate style based on props
-  const adStyle = props.multiplex
-    ? {
-        display: "inline-block",
-        width: "360px",
-        height: "400px",
-      }
-    : props.display
+  const adStyle =  props.display
     ? {
         display: "inline-block",
         width: "336px",

@@ -1,10 +1,18 @@
+import Ads from "@/components/Ads";
 import Layout from "@/components/common/Layout";
 import React from "react";
 
 function PrivacyPolicy() {
   return (
     <Layout>
-     
+      <div className="flex justify-center items-center w-full pt-[50px]">
+        <div >
+          <Ads
+            data-ad-slot="2593442543"
+            data-ad-format="auto"
+            data-full-width-responsive="true" />
+        </div>
+      </div>
       <div className=" pt-[50px] pb-10">
         <div className="flex flex-col gap-3 text-white  pt-[40px] mx-[15px] ls:mx-[20px] sm:mx-[20px] md:mx-[32px] lg:mx-[50px]">
           <h1 className="text-[36px]">Privacy Policy and Terms of Use for Fin Games.com</h1>
