@@ -1,5 +1,6 @@
 // containers/Home.js
 import React from "react";
+import Ads from "@/components/Ads";
 import Layout from "@/components/common/Layout";
 import { useRouter } from "next/router";
 
@@ -15,6 +16,14 @@ function Home({ data }) { // Accept data as a prop
   return (
     <Layout>
       <div className="pb-14 pt-[50px]">
+      <div className=" flex justify-center items-center w-full">
+          <div >
+            <Ads
+              data-ad-slot="2593442543"
+              data-ad-format="auto"
+              data-full-width-responsive="true" />
+          </div>
+        </div>
         <div className="grid grid-cols-2 ls:grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-5 mx-[22px] ls:mx-[20px] sm:mx-[20px] md:mx-[32px] lg:mx-[65px] pt-10">
           {data?.map((item) => ( // Use the passed data prop
             <div

@@ -1,12 +1,21 @@
 import Layout from "@/components/common/Layout";
 import React from "react";
-
+import Ads from "@/components/Ads";
 function ContactUs() {
   return (
     <Layout>
      
       <div className="flex pt-[50px] justify-center  ">
+
         <div className="flex flex-col gap-5 text-white pt-[88px]">
+        <div className="flex justify-center items-center w-full">
+          <div >
+            <Ads
+              data-ad-slot="2593442543"
+              data-ad-format="auto"
+              data-full-width-responsive="true" />
+          </div>
+        </div>
           <h1 className="text-white md:w-[534px] text-center text-[36px] bg-primary3 p-[10px] rounded-[10px]">
             {"Contact Us"}
           </h1>

@@ -1,11 +1,20 @@
+import Ads from "@/components/Ads";
 import Layout from "@/components/common/Layout";
 import React from "react";
 
 function Developer() {
   return (
     <Layout>
-     
+
       <div className=" pt-[50px] ">
+        <div className="flex justify-center items-center w-full ">
+          <div >
+            <Ads
+              data-ad-slot="2593442543"
+              data-ad-format="auto"
+              data-full-width-responsive="true" />
+          </div>
+        </div>
         <div className="mx-[15px] ls:mx-[20px] sm:mx-[20px] md:mx-[32px] lg:mx-[50px] pt-[48px]">
           <img src="/gameImage/backgroundImage.png" />
         </div>

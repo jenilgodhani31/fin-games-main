@@ -10,10 +10,13 @@ function Game({ item, otherGames }) {
     <Layout>
       <div className="flex justify-center text-white pt-[100px] mx-[15px] ls:mx-[20px] sm:mx-[20px] md:mx-[32px] lg:mx-[65px]">
         <div className="flex flex-col gap-5">
+
+            {/* Display Auto Google Ads */}
           <div className="flex justify-center items-center w-full">
-            <div className="">
-              <Ads display={true} data-ad-slot="3246857708" />
-            </div>
+          <Ads
+              data-ad-slot="2593442543"
+              data-ad-format="auto"
+              data-full-width-responsive="true" />
           </div>
 
           <div className="text-center text-[36px]">
@@ -70,7 +73,10 @@ function Game({ item, otherGames }) {
       <div className="pb-14 pt-[20px]">
       <div className="flex justify-center items-center w-full">
             <div className="">
-              <Ads display={true} data-ad-slot="3246857708" />
+            <Ads
+              data-ad-slot="2593442543"
+              data-ad-format="auto"
+              data-full-width-responsive="true" />
             </div>
           </div>
         <div className="grid grid-cols-2 ls:grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-5 mx-[15px] ls:mx-[20px] sm:mx-[20px] md:mx-[32px] lg:mx-[65px] pt-10">
