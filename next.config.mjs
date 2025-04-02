@@ -4,7 +4,6 @@ const nextConfig = {
   trailingSlash: true,
   output: "export",
   swcMinify: true,
-  output: "standalone",
 };
 
 export default nextConfig;

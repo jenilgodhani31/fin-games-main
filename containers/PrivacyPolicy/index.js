@@ -15,12 +15,12 @@ function PrivacyPolicy() {
       </div>
       <div className=" pt-[50px] pb-10">
         <div className="flex flex-col gap-3 text-white  pt-[40px] mx-[15px] ls:mx-[20px] sm:mx-[20px] md:mx-[32px] lg:mx-[50px]">
-          <h1 className="text-[36px]">Privacy Policy and Terms of Use for Fin Games.com</h1>
+          <h1 className="text-[36px]">Privacy Policy and Terms of Use for FinGameon.com</h1>
           <h2 className="text-[30px]">1. Introduction</h2>
           <p className="text-color2 text-[18px]">
-            Welcome to Fin Games.com! This Privacy Policy and Terms of Use
-            govern your use of our website, Fin Games.com, and any related
-            services offered by Fin Games.
+            Welcome to FinGameon.com! This Privacy Policy and Terms of Use
+            govern your use of our website, FinGameon.com, and any related
+            services offered by Fin Gameon.
           </p>
           <p className="text-color2 text-[18px]">
             By using our website, you agree to the terms outlined in this
@@ -29,7 +29,7 @@ function PrivacyPolicy() {
           </p>
           <h3 className="mb-3 text-[30px]">2. Data Collection</h3>
           <p className="text-color2 text-[18px]">
-            We don't collect any user inforamtion or data from users
+            We don't collect any user information or data from users
           </p>
           <h3 className="mb-3 text-[30px]">3. Use of Data</h3>
           <p className="text-color2 text-[18px]">
@@ -88,17 +88,17 @@ function PrivacyPolicy() {
           </p>
           <p>
             <strong className="text-[30px]">
-              In our games all the conis is vertual but there is not real value
+              In our games all the coins is virtual but there is not real value
               of it.
             </strong>
           </p>
           <p>
             <strong className="text-[30px]">
-              All the games for a fun and entatement perpose we do not ask to do
-              any peyment collection from user side.
+              All the games for a fun and entertainment purpose we do not ask to do
+              any payment collection from user side.
             </strong>
           </p>
-          <p className="text-color2 text-[18px]">Last updated: 06/12/2022</p>
+          <p className="text-color2 text-[18px]">Last updated: 01/04/2025</p>
         </div>
       </div>
     </Layout>
